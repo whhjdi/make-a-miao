@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.code-wrapper {
+    flex: 1;
+    height: 45%;
+    padding: 10px;
+}
+
+.preview-wrapper {
+    flex: 1;
+    height: 65%;
+}
+
+#code {
+    overflow: hidden;
+    height: 100%;
+}
+.actions{
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.actions button{
+    margin: 1px 10px;
+    background: #3988fb;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.actions button:focus{
+    outline: none;
+}
+.actions>button.active{
+    background: #e66666;
+}
+
+.speed-wrapper{
+    position: absolute;
+    top: 5px;;
+    right: 5px;
+}
+#speedAll{
+    margin: 0 10px;
+    background: #666;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+#speedAll:focus{
+    outline: none;
+}
