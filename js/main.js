@@ -181,7 +181,10 @@
 .beard.right3 {
     top: 260px;
     left: 170px;
-}`
+}
+/*
+*吼吼吼，是不是萌萌哒呀，喵~
+*/`
     writeCode('', css1);
     
 }.call();
