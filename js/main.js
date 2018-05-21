@@ -120,7 +120,7 @@
     border-radius: 50%;
     position: absolute;
     top: 230px;
-    left: 165px;
+    left: calc(50% - 23px);
 }
 /*
     *差点忘了两只大耳朵，喵~
