@@ -120,7 +120,7 @@
     border-radius: 50%;
     position: absolute;
     top: 230px;
-    left: 177px;
+    left: 165px;
 }
 /*
     *差点忘了两只大耳朵，喵~
@@ -138,7 +138,7 @@
 }
 .ears.right {
     top: -80px;
-    left: 250px;
+    right: -30px;
     transform: rotate(35deg)
 }
 /*
@@ -160,27 +160,27 @@
 }
 .beard.left1 {
     top: 240px;
-    left: -50px;
+    left: -55px;
 }
 .beard.left2 {
     top: 250px;
-    left: -40px
+    left: -45px
 }
 .beard.left3 {
     top: 260px;
-    left: -30px
+    left: -35px
 }
 .beard.right1 {
     top: 240px;
-    left: 190px;
+    right: -55px;
 }
 .beard.right2 {
     top: 250px;
-    left: 180px;
+    right: -45px;
 }
 .beard.right3 {
     top: 260px;
-    left: 170px;
+    right: -35px;
 }
 /*
 *吼吼吼，是不是萌萌哒呀，喵~
